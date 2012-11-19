@@ -37,7 +37,7 @@ function roots_display_sidebar() {
      */
     array(
       'page-custom.php',
-      'page-contact'
+      'page-contact.php'
     )
   );
 
