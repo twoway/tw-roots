@@ -4,8 +4,14 @@
       <h1 class="entry-title"><?php the_title(); ?></h1>
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
-    <div class="entry-content">
+      <div class="entry-content">
       <?php the_content(); ?>
+      
+     <!-- TwoWay added -->
+      <img src="<?php the_field('image'); ?>" alt="" />
+
+     <?php acf_form() ?>
+  
     </div>
     <footer>
       <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>

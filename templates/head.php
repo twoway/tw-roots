@@ -13,6 +13,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
+  <?php acf_form_head(); // TwoWay added ACF front end form?>
+
   <?php wp_head(); ?>
 
   <?php if (wp_count_posts()->publish > 0) : ?>
