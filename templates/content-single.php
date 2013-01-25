@@ -10,6 +10,8 @@
      <!-- TwoWay added -->
       <img src="<?php the_field('image'); ?>" alt="" />
 
+      <img src="<?php the_field('file'); ?>" alt="" />
+
      <?php acf_form() ?>
   
     </div>
