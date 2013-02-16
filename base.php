@@ -19,7 +19,7 @@
       </div>
       <?php if (roots_display_sidebar()) : ?>
       <aside id="sidebar" class="<?php echo roots_sidebar_class(); ?>" role="complementary">
-        <?php get_template_part('templates/sidebar'); ?>
+        <?php //get_template_part('templates/sidebar'); //TwoWay uncommented ?>
       </aside>
       <?php endif; ?>
     </div><!-- /#content -->
